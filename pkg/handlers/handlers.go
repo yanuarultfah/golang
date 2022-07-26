@@ -1,9 +1,11 @@
-package main
+package handlers
 
 import (
 	"errors"
 	"fmt"
 	"net/http"
+
+	"github.com/yanuarultfah/golang/pkg/render"
 )
 
 func Home(w http.ResponseWriter, r *http.Request) {
